@@ -70,24 +70,9 @@ source $PWD/distros/$DISTRO/install_basephp.sh #to remove in feature release
 #---------------------------------------------------------------------
 clear
 echo "Welcome to ISPConfig Setup Script v.2.2.1"
-echo "This software is developed by Temporini Matteo"
-echo "with the support of the community."
-echo "You can visit my website at the followings URLS"
-echo "http://www.servisys.it http://www.temporini.net"
-echo "and contact me with the following information"
-echo "contact email/hangout: temporini.matteo@gmail.com"
-echo "skype: matteo.temporini"
 echo "========================================="
 echo "ISPConfig 3 System installer"
 echo "========================================="
-echo
-echo "This script will do a nearly unattended intallation of"
-echo "all software needed to run ISPConfig 3."
-echo "When this script starts running, it'll keep going all the way"
-echo "So before you continue, please make sure the following checklist is ok:"
-echo
-echo "- This is a clean standard clean installation for supported systems";
-echo "- Internet connection is working properly";
 echo
 echo
 if [ -n "$PRETTY_NAME" ]; then
